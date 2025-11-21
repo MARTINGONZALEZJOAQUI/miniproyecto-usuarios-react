@@ -122,13 +122,6 @@ La aplicación implementa los siguientes puntos clave del miniproyecto:
   - Inactivar (eliminación lógica)
   - Consultar
 
-- Los tipos de documento manejan sólo los campos:
-  - Código
-  - Nombre o descripción  
-  Además se registran automáticamente:
-  - Fecha y hora de creación, modificación e inactivación
-  - Usuario que realiza cada operación
-
 - La eliminación de elementos no borra los registros físicamente.  
   Se utiliza un campo booleano `estado` para marcar los elementos como activos o inactivos.
 
